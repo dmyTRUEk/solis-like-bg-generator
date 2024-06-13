@@ -1,0 +1,23 @@
+[package]
+name = "solis-like-bg-generator"
+version = "0.0.0"
+edition = "2021"
+authors = ["dmyTRUEk"]
+
+[profile.release]
+opt-level = 3
+# lto = "fat"
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = "debuginfo"
+#target-cpu = "native" -> RUSTFLAGS='-C target-cpu=native'
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.7", features = ["derive"] }
+image = "0.25.1"
+num_enum = "0.7.2"
+rand = "0.8.5"
+rand_distr = "0.4.3"
+rayon = "1.10.0"
