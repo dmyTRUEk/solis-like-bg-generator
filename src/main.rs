@@ -4,10 +4,6 @@
 //!
 //! Let's just pray that it all works.
 
-#![feature(
-	const_fn_floating_point_arithmetic,
-)]
-
 #![deny(
 	unreachable_patterns, // because if it is, it's probably a bug that appeared after changing something
 )]
