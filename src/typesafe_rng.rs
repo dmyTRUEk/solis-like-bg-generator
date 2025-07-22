@@ -31,15 +31,16 @@ macro_rules! impl_gen_with_weights {
 }
 
 // TODO: somehow use `cargo expand` to see the output of only this file/macro?
-impl_gen_with_weights!(1, V1, { _0 });
-impl_gen_with_weights!(2, V2, { _0, _1 });
-impl_gen_with_weights!(3, V3, { _0, _1, _2 });
-impl_gen_with_weights!(4, V4, { _0, _1, _2, _3 });
-impl_gen_with_weights!(5, V5, { _0, _1, _2, _3, _4 });
-impl_gen_with_weights!(6, V6, { _0, _1, _2, _3, _4, _5 });
-impl_gen_with_weights!(7, V7, { _0, _1, _2, _3, _4, _5, _6 });
-impl_gen_with_weights!(8, V8, { _0, _1, _2, _3, _4, _5, _6, _7 });
-impl_gen_with_weights!(9, V9, { _0, _1, _2, _3, _4, _5, _6, _7, _8 });
-impl_gen_with_weights!(10, V10, { _0, _1, _2, _3, _4, _5, _6, _7, _8, _9 });
-impl_gen_with_weights!(11, V11, { _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10 });
+impl_gen_with_weights!(1, V1, { _1 });
+impl_gen_with_weights!(2, V2, { _1, _2 });
+impl_gen_with_weights!(3, V3, { _1, _2, _3 });
+impl_gen_with_weights!(4, V4, { _1, _2, _3, _4 });
+impl_gen_with_weights!(5, V5, { _1, _2, _3, _4, _5 });
+impl_gen_with_weights!(6, V6, { _1, _2, _3, _4, _5, _6 });
+impl_gen_with_weights!(7, V7, { _1, _2, _3, _4, _5, _6, _7 });
+impl_gen_with_weights!(8, V8, { _1, _2, _3, _4, _5, _6, _7, _8 });
+impl_gen_with_weights!(9, V9, { _1, _2, _3, _4, _5, _6, _7, _8, _9 });
+impl_gen_with_weights!(10, V10, { _1, _2, _3, _4, _5, _6, _7, _8, _9, _10 });
+impl_gen_with_weights!(11, V11, { _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11 });
+impl_gen_with_weights!(12, V12, { _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12 });
 
